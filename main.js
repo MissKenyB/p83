@@ -13,9 +13,9 @@ new_height = screen.height - 50;
 
 if(width < 992)
 	{
-	document.getElementById("miCanvas").style.width = new_width;
-    document.getElementById("miCanvas").style.height = new_height;
-    document.body.style.overflow = "hidden";
+		canvas.style.width = new_width;
+		canvas.style.height = new_height;
+    		document.body.style.overflow = "hidden";
 	}
 
 canvas.addEventListener("touchstart", my_touchstart);
