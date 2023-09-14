@@ -2,6 +2,7 @@ var mouseEvent = "empty";
  canvas=document.getElementById("miCanvas");
  ctx=canvas.getContext("2d");
 
+ var last_position_of_x, last_position_of_y;
 var color= "black";
 var wline= 3;
 var radio= 20;
@@ -22,7 +23,7 @@ function my_touchstart(e)
 {
     console.log("my_touchstart");
     color = document.getElementById("color").value;
-    wline = document.getElementById("width_of_line").value;
+    wline = document.getElementById("grosor").value;
 
     last_position_of_x = e.touches[0].clientX - canvas.offsetLeft;
     last_position_of_y = e.touches[0].clientY - canvas.offsetTop;
