@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Cavas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body_BG">
+    <center>
+      <h1>Mi primer lienzo</h1>
+      <canvas id="miCanvas" width="800" height="600"></canvas>
+      <br>
+      <div>
+        <span>Radio: <input type="text" id="radio" class="ibox" value="20"></span>
+        <span>Color: <input type="text" placeholder="Ingresa un color en inglés" class="ibox" id="color" value="black"></span>
+        <span>Grosor: <input type="text" id="grosor" class="ibox" value="3"></span>
+      </div>
+      <div><button onclick="clearArea();" id="rest">Reestablecer</button></div>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>

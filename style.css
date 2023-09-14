@@ -1,0 +1,32 @@
+.body_BG{
+    background-position:center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsUng700i-asd2mmpD4p11kuZ1OoBlpUIgcI7BqwVgIw&s");
+    background-size:cover;
+  }
+  h1{
+    color:lightblue;
+    font-size: 40px;
+  }
+  #miCanvas{
+    border-width:10px;
+    background-color:white;
+    border-color:lightblue;
+    border-style:ridge;
+  }
+.ibox{
+    margin: 10px;
+    width: 200px;
+}
+#rest{
+    background-color:rgb(135, 139, 222);
+    color: rgb(89, 7, 243);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+}
+span{
+    font-size: large;
+    color: rgb(247, 223, 6);
+}
