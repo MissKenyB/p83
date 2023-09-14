@@ -8,8 +8,8 @@ var wline= 3;
 var radio= 20;
 var width = screen.width;
 
-new_width =  screen.width - 70; 
-new_height = screen.height - 200;
+new_width =  screen.width - 10; 
+new_height = screen.height - 50;
 
 if(width < 992)
 	{
