@@ -2,7 +2,7 @@ var mouseEvent = "empty";
  canvas=document.getElementById("miCanvas");
  ctx=canvas.getContext("2d");
 
- var last_position_of_x, last_position_of_y;
+var last_position_of_x, last_position_of_y;
 var color= "black";
 var wline= 3;
 var radio= 20;
@@ -13,8 +13,8 @@ new_height = screen.height - 200;
 
 if(width < 992)
 	{
-	document.getElementById("miCanvas").width = new_width;
-    document.getElementById("miCanvas").height = new_height;
+	document.getElementById("miCanvas").style.width = new_width;
+    document.getElementById("miCanvas").style.height = new_height;
     document.body.style.overflow = "hidden";
 	}
 
